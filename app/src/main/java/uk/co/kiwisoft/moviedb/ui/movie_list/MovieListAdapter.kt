@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import uk.co.kiwisoft.moviedb.R
-import uk.co.kiwisoft.moviedb.data.Movie
 import uk.co.kiwisoft.moviedb.databinding.MovieItemBinding
+import uk.co.kiwisoft.moviedb.domain.movies.Movie
 
 
 class MovieListAdapter : RecyclerView.Adapter<MovieViewHolder>() {

@@ -9,7 +9,7 @@ apply plugin: 'kotlin-kapt'
 def getApiKey() {
     Properties properties = new Properties()
     properties.load(project.rootProject.file('local.properties').newDataInputStream())
-    return properties.getProperty("tmdb.apikey");
+    return properties.getProperty("tmdb.apikey")
 }
 
 android {
@@ -29,10 +29,13 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility 1.8
+        targetCompatibility 1.8
+    }
     dataBinding {
         enabled = true
     }
-
 }
 
 repositories {

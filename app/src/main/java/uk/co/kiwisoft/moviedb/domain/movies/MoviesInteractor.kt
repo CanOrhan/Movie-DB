@@ -1,7 +1,6 @@
 package uk.co.kiwisoft.moviedb.domain.movies
 
 import io.reactivex.rxjava3.core.Single
-import uk.co.kiwisoft.moviedb.data.Movie
 import uk.co.kiwisoft.moviedb.data.tmdb_api.MovieDbHttpService
 import uk.co.kiwisoft.moviedb.data.tmdb_api.MoviesDbApi
 

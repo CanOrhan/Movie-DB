@@ -7,7 +7,7 @@ import androidx.lifecycle.ViewModelProvider
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.schedulers.Schedulers
-import uk.co.kiwisoft.moviedb.data.Movie
+import uk.co.kiwisoft.moviedb.domain.movies.Movie
 import uk.co.kiwisoft.moviedb.domain.movies.MoviesInteractor
 import uk.co.kiwisoft.moviedb.domain.movies.MoviesUseCase
 

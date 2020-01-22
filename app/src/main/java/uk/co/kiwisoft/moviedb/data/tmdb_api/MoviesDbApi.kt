@@ -2,8 +2,8 @@ package uk.co.kiwisoft.moviedb.data.tmdb_api
 
 import io.reactivex.rxjava3.core.Single
 import retrofit2.http.GET
-import uk.co.kiwisoft.moviedb.data.Movie
 import uk.co.kiwisoft.moviedb.data.Result
+import uk.co.kiwisoft.moviedb.domain.movies.Movie
 
 
 interface MoviesDbApi {
